@@ -1,0 +1,9 @@
+<h3>Main working!</h3>
+
+<pre><code [highlight]="code" [languages]="['typescript']" (highlighted)="onHighlight($event)" [lineNumbers]="true"></code></pre>
+
+
+<button (click)="changeTheme()">Change theme</button>
+
+<h4>Highlight response</h4>
+<pre>{{ response | json }}</pre>
